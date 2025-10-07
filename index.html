@@ -1,1 +1,26 @@
-
+<html>
+      <head>
+            <title>Guess The Number</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="../style.css">
+      </head>
+      <body style="background: linear-gradient(180deg,#071021 0%, #071935 60%);color: white;">
+            <div id="wrapper">
+                  <h1>Number Guessing Game</h1>
+                  <p>Try and guess a random number between 1 and 100.</p>
+                  <p>You have 10 attempts to guess the right number.</p>
+            </br>
+            <form class="form">
+                  <label for="GuessField" id="guess">Guess a Number</label>
+                  <input type="text" id="guessField" class="guessField">
+                  <input type="submit" id="subt" value="Submit Guess" class="guessSubmit">
+            </form>
+            <div class="resultParas">
+                  <p>Previous Guesses: <span class="guesses"></span></p>
+                  <p>Guesses Remaining: <span class="lastResult">10</span></p>
+                  <p class="lowOrHi"></p>
+            </div>
+            </div>
+      </body>
+      <script src="script.js"></script>
+</html>
